@@ -1,0 +1,156 @@
+.housework-manager {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+
+  h1 {
+    text-align: center;
+  }
+
+  .housework-input {
+    display: flex;
+    margin-bottom: 20px;
+
+    input {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 8px 16px;
+      margin-left: 8px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .housework-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    button {
+      flex: 1;
+      margin: 0 4px;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      background-color: #f8f9fa;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e2e6ea;
+      }
+    }
+  }
+
+  .housework-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+
+      &.completed {
+        text-decoration: line-through;
+        color: #6c757d;
+      }
+
+      input[type='checkbox'] {
+        margin-right: 8px;
+      }
+
+      button {
+        margin-left: auto;
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .modal-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      button {
+        margin: 0 8px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:nth-child(1) {
+          background-color: #6c757d;
+          color: #fff;
+
+          &:hover {
+            background-color: #5a6268;
+          }
+        }
+
+        &:nth-child(2) {
+          background-color: #dc3545;
+          color: #fff;
+
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+      }
+    }
+  }
+
+  .housework-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .button {
+      flex: 1;
+      margin: 0 4px;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      background-color: #dc3545;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+  }
+}

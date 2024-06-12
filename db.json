@@ -1,0 +1,41 @@
+{
+  "houseworks": [
+    {
+      "name": "Quét nhà",
+      "status": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Giặt quần áo",
+      "status": false
+    },
+    {
+      "name": "Nấu cơm",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "Hehehe",
+      "status": false,
+      "id": 1718089501796
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "State trong ReactJS",
+      "image": "path/to/image1.png",
+      "date": "04/03/2024",
+      "status": "Đã xuất bản",
+      "blocked": false
+    },
+    {
+      "id": 2,
+      "title": "Tổng quan về ReactJS",
+      "image": "path/to/image2.png",
+      "date": "03/03/2024",
+      "status": "Đã xuất bản"
+    }
+  ]
+}

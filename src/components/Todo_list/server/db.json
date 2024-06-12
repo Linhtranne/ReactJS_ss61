@@ -1,0 +1,19 @@
+{
+    "houseworks": [
+      {
+        "id": 1,
+        "name":"Quét nhà",
+        "status": true
+      },
+      {
+        "id": 2,
+        "name":"Giặt quần áo",
+        "status": false
+      },
+      {
+        "id":3,
+        "name":"Nấu cơm",
+        "status": true
+      }
+    ]
+  }
